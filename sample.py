@@ -5,7 +5,7 @@ import re
 import requests
 
 
-#Fixing Error One (Data Base should be from an ENV file)
+#Fixing Error One (Data Base should be from an ENV file.)
 db_config = {
     'host': os.getenv('DB_HOST', 'localhost'),
     'user': os.getenv('DB_USER', 'root'),
